@@ -1,0 +1,63 @@
+Real-Time Projects:
+
+tips:-> font-family: Montserrat
+
+1. 
+Name :  calculator
+Link:  https://www.youtube.com/watch?v=I5kj-YsmWjM&t=681s
+status: done
+###
+
+2.
+Name : e-book
+Link: 
+status: not !	$$$$$$$$$$$$$
+
+3.
+Name : quiz
+Link: https://www.youtube.com/watch?v=0lpsyvPHI2Q
+status: done
+###
+
+4.
+Name : qr-code
+Link: https://www.youtube.com/watch?v=Rd0dshSLCFw
+status: done
+###
+
+5.
+Name : weather
+Link: https://www.youtube.com/watch?v=AiV86oHTmsc
+status: done
+###
+
+6.
+Name : stopwatch
+Link: no link
+status: done
+###
+
+7.
+Name : instagram-clone
+Link: https://www.youtube.com/watch?v=spmqbXTp7uE
+status: not !	$$$$$$$$$$$$$
+
+8.
+Name : instagram-clone
+Link: https://www.youtube.com/watch?v=spmqbXTp7uE
+status: not !
+###
+
+
+9.
+Name : landing page
+Link: https://www.youtube.com/watch?v=spmqbXTp7uE
+status: not !
+###
+
+
+
+
+
+
+
