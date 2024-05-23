@@ -1,0 +1,94 @@
+Navbar------------
+
+1.
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleBtn = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <>
+      <header className="w-full flex justify-between p-3">
+        <div className="">YokiEditz</div>
+        <nav className="hidden md:flex justify-between space-x-10">
+          <p>Home</p>
+          <p>About</p>
+          <p>Contact</p>
+        </nav>
+        <button className="md:hidden" onClick={toggleBtn}>
+          {isOpen ? <X /> : <Menu />}
+        </button>
+      </header>
+      {isOpen && (
+        <nav className="flex border-4 flex-col items-center basis-full flex-wrap transition-all duration-700">
+          <p>Home</p>
+          <p>About</p>
+          <p>Contact</p>
+        </nav>
+      )}
+    </>
+  );
+};
+
+const App = () => {
+  return (
+    <>
+      <section>
+        <Navbar />
+      </section>
+    </>
+  );
+};
+
+export default App;
+
+
+
+
+
+2.
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { navListItems } from './data/data'
+
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleBtn = () => {
+    setIsOpen(!isOpen)
+  }
+  return (
+    <>
+      <header className="h-16 relative flex items-center justify-between p-5 bg-black text-white">
+        <div className="">Yokieditz</div>
+        <nav>
+          <ul className="flex">
+            {navListItems.map((navitem, index) => (
+              <li key={index} className="hidden sm:flex m-3 p-3 hover:text-blue-600 text-x transition-all">{navitem}</li>
+            ))}
+          </ul>
+          {isOpen ? <ul className="hidden max-sm:flex flex-col  absolute top-16 left-0 w-full justify-center items-center bg-slate-400 transition duration-700 ease-out ">
+            {navListItems.map((navitem, index) => (
+              <li key={index} className="m-3 px-3 hover:text-blue-600 text-xl">{navitem}</li>
+            ))}
+          </ul> : null}
+        </nav>
+        <button className="hidden max-sm:flex transform hover:scale-125 transition-all duration-700" onClick={toggleBtn}>{isOpen ? <X /> : <Menu />}</button>
+      </header>
+    </>
+  );
+};
+
+const App = () => {
+  return (
+    <>
+      <section>
+        <Navbar />
+      </section>
+    </>
+  );
+};
+
+export default App;
