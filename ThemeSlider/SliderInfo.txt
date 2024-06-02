@@ -3,7 +3,7 @@ Color-ThemeSlider
 1.    import => 
 i)   usestate
 ii)  framer-motion   ->   npm install framer-motion 
-iii) react-icons/fi  ->   npm install @react-icons/all-files --save
+iii) react-icons/fi  ->   npm install react-icons --save
 
 AND,
 css: 	* {
