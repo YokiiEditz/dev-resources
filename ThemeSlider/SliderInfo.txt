@@ -2,9 +2,10 @@ Color-ThemeSlider
 
 1.    import => 
 i)   usestate
-ii)  framer-motion
-iii) react-icons/fi 
-and in 
+ii)  framer-motion   ->   npm install framer-motion 
+iii) react-icons/fi  ->   npm install @react-icons/all-files --save
+
+AND,
 css: 	* {
   margin: 0;
   padding: 0;
