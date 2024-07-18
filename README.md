@@ -1,6 +1,8 @@
 # devstudy-resources
 List of Materials and Resources online
 
+Beginners: https://github.com/microsoft/Web-Dev-For-Beginners
+
 # Youtube:
 
 ## Tamil Youtube Channel:
